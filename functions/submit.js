@@ -42,7 +42,7 @@ export async function onRequestPost(context) {
 
     // 2) 텔레그램 알림
     const msg =
-      `🔔 그란알레 신규 문의\n\n` +
+      `🔔 더샵 송도그란테르 신규 문의\n\n` +
       `👤 이름: ${name}\n` +
       `📞 연락처: ${phone}\n` +
       `🌐 유입: ${utm_source || "-"} / ${utm_medium || "-"} / ${utm_campaign || "-"}\n` +
